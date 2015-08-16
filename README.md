@@ -5,5 +5,5 @@ Please make a DB backup before you use this script!
 
 ## Usage:
 ```
-php -f convert-configurable2grouped.php convert-all
+php -f convert-configurable2grouped.php convert_all
 ```

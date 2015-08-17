@@ -41,7 +41,7 @@ class CeckosLab_Convert_Configurable2Grouped
 
     public function run()
     {
-        if ($this->getArg('convert-all')) {
+        if ($this->getArg('convert_all')) {
             $this->_init();
 
             foreach ($this->_configurableProductIds as $parentId) {
@@ -372,9 +372,9 @@ class CeckosLab_Convert_Configurable2Grouped
         return <<<USAGE
 Please make a DB backup before you use this script!
 
-Usage:  php -f convert-configurable2grouped.php convert-all
+Usage:  php -f convert-configurable2grouped.php convert_all
 
-  convert-all   Converts all configurable products to grouped products
+  convert_all   Converts all configurable products to grouped products
   -h            Short alias for help
   help          This help
 
